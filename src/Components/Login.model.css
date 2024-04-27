@@ -1,0 +1,48 @@
+.heading{
+    color: blue;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mitr:wght@600&display=swap');
+.main {
+  background-image: url('../Images/content-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  /* height: ; */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: white;
+    border-radius: 30px;
+  text-align: center;
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+.title {
+  font-size: 10vw;
+  background: linear-gradient(
+    to right,
+    #e83a0f,
+    #feb47b
+  ); /* Define your gradient colors */
+  -webkit-background-clip: text; /* Clip text to the background area */
+  color: transparent; /* Make the text transparent */
+}
+.text-wrap {
+    background-color: rgba(128, 128, 128, 0.84);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%; /* Adjust the desired width as needed */
+    margin: auto; /* Center the text */
+  }
+  #loginBtn:hover{
+    background-color: gray !important;
+  }
+  @media screen and (width<990px) {
+    .text-wrap{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+  }

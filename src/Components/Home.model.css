@@ -1,0 +1,32 @@
+.profile{
+    background-image: url('../Images/student-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.profile-img{
+    height: 100px;
+    width: 100px;
+}
+.profile-img>img{
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-details{
+    list-style: none;
+    
+}
+.profile-details>li{
+    padding-inline: 10px;
+}
+.profile-details>span{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+h4{
+    font-weight: 700 !important;
+}
